@@ -1,0 +1,4 @@
+rootProject.name = 'D74MicroServiceRabbitAs'
+include 'member-register-service'
+include 'member-db-service'
+

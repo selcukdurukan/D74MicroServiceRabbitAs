@@ -1,0 +1,25 @@
+server:
+  port: 7071
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: java4
+    password: root
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/BootMSRabbitAsD74
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  jackson:
+    date-format: dd-MM-yyyy HH:mm:ss.SSS
+    time-zone: Turkey

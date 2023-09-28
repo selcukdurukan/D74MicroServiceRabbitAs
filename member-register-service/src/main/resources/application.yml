@@ -1,0 +1,12 @@
+server:
+  port: 7070
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: java4
+    password: root
+
+  jackson:
+    date-format: dd/MM/yyyy
